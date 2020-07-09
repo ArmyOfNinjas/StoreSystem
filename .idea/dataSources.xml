@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="127.0.0.1:3306/" uuid="87ffba0b-7758-4d81-83b8-ea00c71c3176">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT-0200" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="127.0.0.1:3306/ [2]" uuid="3ccf35f7-8650-499c-a44d-41402fdda485">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT-0500" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="127.0.0.1:3306/ [3]" uuid="6e516fef-c9f9-4d00-8398-3d9b110e6c33">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT-0500" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="127.0.0.1:3306/ [4]" uuid="ef040cd9-feaf-4651-b760-e7e61549df90">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT-0500" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
