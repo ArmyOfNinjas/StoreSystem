@@ -9,3 +9,63 @@
 5 - Product with this ID successfully added
 6 - Product with this ID successfully updated
 new Bread - Product successfully added
+Garden City - Store successfully added
+5 - Store with this ID successfully deleted
+Milk - Product successfully added
+Bread - Product successfully added
+Gateway - Store successfully added
+1 - Product with this ID successfully added
+2 - Product with this ID successfully added
+Bread - Product successfully added
+3 - Product with this ID successfully added
+123 - Product successfully added
+new Bread - Product successfully added
+5 - Product with this ID successfully added
+Product with this ID=1 successfully updated for Store ID=1
+Product with this ID=1 successfully updated for Store ID=1
+Product with this ID=3 successfully updated for Store ID=1
+Product with this ID=3 successfully updated for Store ID=1
+Product with this ID=1 successfully updated for Store ID=1
+Product with this ID=1 successfully updated for Store ID=1
+Product with this ID=1 successfully updated for Store ID=1
+Product with this ID=1 successfully updated for Store ID=1
+Product with this ID=1 successfully updated for Store ID=1
+123 - Product successfully added to the store: Superstore on Gateway
+3 - Product with this ID successfully deleted
+Expensive Milk - Product successfully added
+Expensive Milk 2 - Product successfully added
+Expensive Milk 4 - Product successfully added
+milk 2 - Product successfully added
+milk 2 - Product successfully added to the store: Superstore on Gateway
+Milk 2 - Product successfully added
+Milk 3 - Product successfully added
+13 - Product successfully added
+Milk4 - Product successfully added
+Milk4 - Product successfully added
+111 - Product successfully added
+1112 - Product successfully added
+Milk - Product successfully added
+Milk 2 - Product successfully added
+Regent - Store successfully added
+Milk - Product successfully added to the store: Walmart on Regent
+111 - Product successfully added to the store: Walmart on Regent
+Bread - Product successfully added to the store: Walmart on Regent
+5 - Product with this ID successfully deleted
+123 - Product successfully added to the store: Superstore on Gateway
+Expensive Milk - Product successfully added
+Concordia - Store successfully added
+Milk - Product successfully added to the store: Walmart on Concordia
+10 - Product with this ID successfully deleted
+Italian Bread - Product successfully added
+Milk - Product successfully added to the store: Superstore on Gateway
+Milk2 - Product successfully added
+Milk2 - Product successfully added
+Milk2 - Product successfully added
+Milk2 - Product successfully added
+Regent, Winnipeg - Store successfully added
+Bread - Product successfully added to the store: Superstore on Regent, Winnipeg
+Expensive Milk - Product successfully added to the store: Superstore on Regent, Winnipeg
+14 - Product with this ID successfully deleted
+Eggs - Product successfully added
+Product with this ID=3 successfully updated for Store ID=4
+Expensive Eggs - Product successfully added

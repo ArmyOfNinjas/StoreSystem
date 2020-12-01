@@ -1,9 +1,14 @@
 package com.entity;
 
+
+/**
+ * Class represents a physical product that can be sold in the store.
+ */
 public class Product {
     private Integer id;
     private String barCode;
     private String productName;
+    private float price;
 
 
     public Product(Integer id , String barCode, String productName) {
@@ -50,4 +55,13 @@ public class Product {
     public void setProductName(String productName) {
         this.productName = productName;
     }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/StoreSystem/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql-connector-java-8.0.18"/>
+	<classpathentry kind="var" path="MAVEN_REPOSITORY/junit/junit/4.12/junit-4.12.jar"/>
+	<classpathentry kind="var" path="MAVEN_REPOSITORY/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -2,6 +2,9 @@ package com.entity;
 
 import java.util.List;
 
+/**
+ * Class represents a physical store with it's address, name and list of products that are sold in it.
+ */
 public class Store {
     private Integer id;
     private String name;
@@ -48,5 +51,10 @@ public class Store {
 
     public boolean isNew() {
         return id==null || id==0;
+    }
+
+    @Override
+    public String toString() {
+        return name + " - " +  address;
     }
 }

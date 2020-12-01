@@ -2,9 +2,12 @@ package com.main;
 
 import com.dbutility.TablesCreator;
 import com.forms.MainForm;
-import com.forms.ProductsForm;
 import javax.swing.*;
 
+
+/**
+ * Main executable class. Calls table creator and opens the Main form.
+ */
 public class MainClass {
     public static void main(String[] args) {
         TablesCreator tablesCreator = new TablesCreator();
@@ -21,16 +24,6 @@ public class MainClass {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-
-        mainForm.PopulateTable();
-
-//        ProductsForm productsForm = new ProductsForm();
-//        JFrame frame2 = new JFrame("Application");
-//        frame.setContentPane(productsForm.panelProducts);
-//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        frame.pack();
-//        frame.setVisible(true);
-//
-//        productsForm.PopulateTable();
+        mainForm.populateTable();
     }
 }

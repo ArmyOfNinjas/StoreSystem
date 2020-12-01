@@ -3,10 +3,13 @@ package com.dbutility;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
+/**
+ * Utility class for creating a Database connection.
+ */
 public class DbConnection {
     private static final String USER_NAME = "dbuser";
     private static final String PASS_WORD = "dbpassword";

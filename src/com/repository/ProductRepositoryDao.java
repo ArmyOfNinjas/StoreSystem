@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-
+/**
+ * Class represents a product service. Contains all necessary methods for CRUD system.
+ */
 public class ProductRepositoryDao implements ProductRepository {
 
     private Connection connection;
@@ -20,6 +22,11 @@ public class ProductRepositoryDao implements ProductRepository {
         this.connection=connection;
     }
 
+    /**
+     * Saves product in the database.
+     * @param product
+     * @return Product
+     */
     @Override
     public Product save(Product product) {
 
@@ -45,6 +52,11 @@ public class ProductRepositoryDao implements ProductRepository {
         return product;
     }
 
+    /**
+     * Updates product in the database.
+     * @param product
+     * @return Product
+     */
     private Product update(Product product) {
         sql = "UPDATE products SET barcode=?, productName=? WHERE id=?";
         try {
@@ -66,6 +78,11 @@ public class ProductRepositoryDao implements ProductRepository {
     }
 
 
+    /**
+     * Deletes product from the database.
+     * @param id
+     * @return boolean
+     */
     @Override
     public boolean delete(int id) {
         sql = "DELETE FROM products WHERE id=?";
@@ -82,6 +99,11 @@ public class ProductRepositoryDao implements ProductRepository {
         return true;
     }
 
+    /**
+     * Finds product by id in database.
+     * @param id
+     * @return
+     */
     @Override
     public Product get(int id) {
         Product product=null;
@@ -107,6 +129,10 @@ public class ProductRepositoryDao implements ProductRepository {
         return product;
     }
 
+    /**
+     * Finds all products in database.
+     * @return
+     */
     @Override
     public Collection<Product> getAll() {
         sql = "SELECT * FROM products ORDER BY ID";
@@ -118,8 +144,8 @@ public class ProductRepositoryDao implements ProductRepository {
             while (rs.next()) {
                 products.add(new Product(
                         rs.getInt("id"),
-                        rs.getString("barCode"),
-                        rs.getString("productName")
+                        rs.getString("productName"),
+                        rs.getString("barCode")
                 ));
             }
         } catch (SQLException e) {
